@@ -67,7 +67,7 @@ Welcome to NeuroLift, an AI-powered medical assistant web app designed to provid
 - **Backend:** Python (Flask)
 - **ML Algorithm:** Logistic Regression
 - **ML Libraries:** pandas, numpy, scikit-learn
-- **APIs:** Gemini Pro Flash API
+- **APIs:** Gemini-1.5-Pro API
 - **Database:** Firebase Firestore, Firebase Authentication
 - **Tools:** Google Collab, Google AI Studio, VS Code, Postman
 
