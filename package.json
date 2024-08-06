@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "firebase": "^10.11.0",
+    "react-router": "^6.26.0",
+    "react-router-dom": "^6.26.0"
+  }
+}
