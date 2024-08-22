@@ -8,7 +8,7 @@ import MentalWellness from "./Components/MentalWellness/MentalWellness";
 import SymptomAnalysis from "./Components/SymptomAnalysis/SymptomAnalysis";
 import ConsultDoctor from "./Components/ConsultDoctor/ConsultDoctor";
 import "./index.css";
-import "./config/gemini";
+import "./config/gemini.js";
 import Login from "./Components/UserProfile/login";
 import Register from "./Components/UserProfile/register";
 import Profile from "./Components/UserProfile/dashboard";
@@ -49,13 +49,13 @@ function App() {
         }
     };
 
-    return ( 
-        <AppStyled bg = { bg } className = "App" >
+    return ( <AppStyled bg = { bg }
+        className = "App" >
         <MainLayout >
-        <Navigation active = { active } setActive = { setActive }/> <main> { displayData() } </main> 
-        </MainLayout > 
-        </AppStyled>
-    );
+        <Navigation active = { active }
+        setActive = { setActive }/> <main> { displayData() } </main >
+        </MainLayout >  </AppStyled >
+        );
 }
 
 const AppStyled = styled.div `
