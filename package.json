@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "@google/generative-ai": "^0.8.0",
+    "bootstrap": "^5.3.3",
     "firebase": "^10.11.0",
+    "react-bootstrap": "^2.10.4",
+    "react-google-button": "^0.8.0",
     "react-router": "^6.26.0",
     "react-router-dom": "^6.26.0"
   }

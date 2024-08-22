@@ -11,7 +11,7 @@ import "./index.css";
 import "./config/gemini";
 import Login from "./Components/UserProfile/login";
 import Register from "./Components/UserProfile/register";
-import Profile from "./Components/UserProfile/userprofile";
+import Profile from "./Components/UserProfile/dashboard";
 import SignInwithGoogle from "./Components/UserProfile/signinwithgoogle";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
